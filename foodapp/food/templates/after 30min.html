@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Website</title>
+    {% load static %}  
+    <script src="{% static '/js/script.js' %}" type="text/javascript"></script>  
+    <link href="{% static 'css/style.css' %}" rel="stylesheet">
+    <!-- <link rel="stylesheet" href ="style.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+  <body>
+    <section id="Home">
+      <nav>
+          <div class="logo">  
+            {% load static %}
+<img src="{% static 'imag/food.jpeg' %}" alt="food">
+
+              <!-- <img src="food.jpeg"> -->
+  
+          </div>
+          <ul>
+              <li><a href ="homepage.php">Home</a></li>
+              <li><a href ="about.php">About</a></li>
+              <li><a href ="menu.php">Menu</a></li>
+              <!-- <li><a href ="#Gallary">Gallary</a></li> -->
+              <li><a href ="review.php">Review</a></li>
+              <li><a href ="order.php" >Order</a></li>
+              <li><a href ="location.php" >Location</a></li>
+          </ul>
+          <div class="icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+          </div>
+        </nav>
+     <div class="main">
+  
+      <div class="men_text">
+          <h1>Get Fresh<span>Food</span><br>in a Easy Way</h1>
+      </div>
+      
+      <div class="main_image">
+        <img src="burger.jpg">
+      </div>
+     </div>
+     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+       voluptatem possimus facilis perspiciatis obcaecati inventore 
+      voluptate ipsa. Atque!</p>
+
+        <div class="main_btn">
+            <a href="#">Order Now</a>
+            <i class="fa-solid fa-angle-right"></i>
+        </div>
+        
+          </div>
+        
+      </section>
+    <!-- about -->
+ <div class="about" id="About"> 
+  <div class="about_main">
+    
+    <div class="image">
+      <img src="pasta.jpg"  >
+  </div> 
+
+        <div class="about_text">
+            <h1><span>About</span>Us</h1>
+            <h3>Why Choose us?</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam eius sapiente similique voluptatum reiciendis impedit, odit cum obcaecati incidunt sint. Beatae ex veritatis reprehenderit iusto earum ipsum, asperiores rerum repellat.
+            Cum obcaecati numquam ipsam repellendus porro, sapiente laborum veritatis dignissimos adipisci quo commodi? Architecto vero ex magni. Adipisci fuga ex eum doloribus qui labore, ut, est, sunt maxime reprehenderit eaque?
+            Itaque vero iure repudiandae a at maiores voluptatum vitae, ratione incidunt assumenda quidem consequatur eius quod error nemo quos amet earum quibusdam voluptates enim consequuntur! Fugiat sapiente ipsum recusandae cumque.
+            Odit eveniet error porro distinctio quasi iure itaque, sed tempore rerum est officia culpa accusantium dicta aliquid veritatis eos obcaecati neque exercitationem suscipit ipsum sapiente pariatur ad. Est, quis minima!</p>
+        </div>
+  </div>
+ 
+    <a href="#" class="about_btn">Order Now</a>
+ </div>    
+</div>
+
+<!-- menu -->
+<div class="menu" id="menu">
+  <h1>Our <span>Menu</span></h1>
+    <div class="menu_box">
+      <div class="menu_card">
+       <div class="menu_image">
+         <img src="poori.jpg" >
+       </div>
+
+       <div class="small_card">
+        <i class="fa-solid fa-heart"></i>  
+       </div>
+         <div class="menu_info">
+          <h2>Poori</h2>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum ipsam enim soluta odio error? Sit magni voluptatibus quisquam illum vero.
+          
+          </p>
+          <h3>$20.00</h3>
+          <div class="menu_icon">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stoke"></i>
+          </div>
+          <a href="#" class="menu_btn">Order Now</a>
+         </div>
+      </div>
+      <div class="menu_card">
+        <div class="menu_image">
+          <img src="idali.jpg" >
+        </div>
+ 
+        <div class="small_card">
+         <i class="fa-solid fa-heart"></i>  
+        </div>
+          <div class="menu_info">
+           <h2>Idali</h2>
+           <p>
+             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum ipsam enim soluta odio error? Sit magni voluptatibus quisquam illum vero.
+           
+           </p>
+           <h3>$20.00</h3>
+           <div class="menu_icon">
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star-half-stoke"></i>
+           </div>
+           <a href="#" class="menu_btn">Order Now</a>
+          </div>
+       </div>
+       <div class="menu_card">
+        <div class="menu_image">
+          <img src="masal dosa.jpg" >
+        </div>
+ 
+        <div class="small_card">
+         <i class="fa-solid fa-heart"></i>  
+        </div>
+          <div class="menu_info">
+           <h2>Masala Dosa</h2>
+           <p>
+             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum ipsam enim soluta odio error? Sit magni voluptatibus quisquam illum vero.
+           
+           </p>
+           <h3>$20.00</h3>
+           <div class="menu_icon">
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star-half-stoke"></i>
+           </div>
+           <a href="#" class="menu_btn">Order Now</a>
+          </div>
+       </div>
+       <div class="menu_card">
+        <div class="menu_image">
+          <img src="rava-idli.jpg" >
+        </div>
+ 
+        <div class="small_card">
+         <i class="fa-solid fa-heart"></i>  
+        </div>
+          <div class="menu_info">
+           <h2>Rava Idali</h2>
+           <p>
+             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum ipsam enim soluta odio error? Sit magni voluptatibus quisquam illum vero.
+           
+           </p>
+           <h3>$20.00</h3>
+           <div class="menu_icon">
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star-half-stoke"></i>
+           </div>
+           <a href="#" class="menu_btn">Order Now</a>
+          </div>
+       </div>
+       <div class="menu_card">
+        <div class="menu_image">
+          <img src="roti panner cury.jpg" >
+        </div>
+ 
+        <div class="small_card">
+         <i class="fa-solid fa-heart"></i>  
+        </div>
+          <div class="menu_info">
+           <h2>Roti Panner Curry</h2>
+           <p>
+             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum ipsam enim soluta odio error? Sit magni voluptatibus quisquam illum vero.
+           
+           </p>
+           <h3>$20.00</h3>
+           <div class="menu_icon">
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star-half-stoke"></i>
+           </div>
+           <a href="#" class="menu_btn">Order Now</a>
+          </div>
+       </div>
+       <div class="menu_card">
+        <div class="menu_image">
+          <img src="palav.jpg" >
+        </div>
+ 
+        <div class="small_card">
+         <i class="fa-solid fa-heart"></i>  
+        </div>
+          <div class="menu_info">
+           <h2>Palav</h2>
+           <p>
+             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum ipsam enim soluta odio error? Sit magni voluptatibus quisquam illum vero.
+           
+           </p>
+           <h3>$20.00</h3>
+           <div class="menu_icon">
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star-half-stoke"></i>
+           </div>
+           <a href="#" class="menu_btn">Order Now</a>
+          </div>
+       </div>
+       <div class="menu_card">
+        <div class="menu_image">
+          <img src="tomato bath.webp".jpg" >
+        </div>
+ 
+        <div class="small_card">
+         <i class="fa-solid fa-heart"></i>  
+        </div>
+          <div class="menu_info">
+           <h2>Tomato Bath</h2>
+           <p>
+             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum ipsam enim soluta odio error? Sit magni voluptatibus quisquam illum vero.
+           
+           </p>
+           <h3>$20.00</h3>
+           <div class="menu_icon">
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star-half-stoke"></i>
+           </div>
+           <a href="#" class="menu_btn">Order Now</a>
+          </div>
+       </div>
+       <div class="menu_card">
+        <div class="menu_image">
+          <img src="full mils.avif" >
+        </div>
+ 
+        <div class="small_card">
+         <i class="fa-solid fa-heart"></i>  
+        </div>
+          <div class="menu_info">
+           <h2>Full mils</h2>
+           <p>
+             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum ipsam enim soluta odio error? Sit magni voluptatibus quisquam illum vero.
+           
+           </p>
+           <h3>$20.00</h3>
+           <div class="menu_icon">
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star-half-stoke"></i>
+           </div>
+           <a href="#" class="menu_btn">Order Now</a>
+          </div>
+       </div>
+       <div class="menu_card">
+        <div class="menu_image">
+          <img src="itli-comi.jpg" >
+        </div>
+ 
+        <div class="small_card">
+         <i class="fa-solid fa-heart"></i>  
+        </div>
+          <div class="menu_info">
+           <h2>Indian Food</h2>
+           <p>
+             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum ipsam enim soluta odio error? Sit magni voluptatibus quisquam illum vero.
+           
+           </p>
+           <h3>$20.00</h3>
+           <div class="menu_icon">
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star-half-stoke"></i>
+           </div>
+           <a href="#" class="menu_btn">Order Now</a>
+          </div>
+       </div>
+       <div class="menu_card">
+        <div class="menu_image">
+          <img src="itli-comi.jpg" >
+        </div>
+ 
+        <div class="small_card">
+         <i class="fa-solid fa-heart"></i>  
+        </div>
+          <div class="menu_info">
+           <h2>Indian Food</h2>
+           <p>
+             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum ipsam enim soluta odio error? Sit magni voluptatibus quisquam illum vero.
+           
+           </p>
+           <h3>$20.00</h3>
+           <div class="menu_icon">
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star-half-stoke"></i>
+           </div>
+           <a href="#" class="menu_btn">Order Now</a>
+          </div>
+       </div>
+       <div class="menu_card">
+        <div class="menu_image">
+          <img src="itli-comi.jpg" >
+        </div>
+ 
+        <div class="small_card">
+         <i class="fa-solid fa-heart"></i>  
+        </div>
+          <div class="menu_info">
+           <h2>Indian Food</h2>
+           <p>
+             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum ipsam enim soluta odio error? Sit magni voluptatibus quisquam illum vero.
+           
+           </p>
+           <h3>$20.00</h3>
+           <div class="menu_icon">
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star-half-stoke"></i>
+           </div>
+           <a href="#" class="menu_btn">Order Now</a>
+          </div>
+       </div>
+       <div class="menu_card">
+        <div class="menu_image">
+          <img src="idali.jpg" >
+        </div>
+ 
+        <div class="small_card">
+         <i class="fa-solid fa-heart"></i>  
+        </div>
+          <div class="menu_info">
+           <h2>Indian Food</h2>
+           <p>
+             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum ipsam enim soluta odio error? Sit magni voluptatibus quisquam illum vero.
+           
+           </p>
+           <h3>$20.00</h3>
+           <div class="menu_icon">
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star-half-stoke"></i>
+           </div>
+           <a href="#" class="menu_btn">Order Now</a>
+          </div>
+       </div>
+       <div class="menu_card">
+        <div class="menu_image">
+          <img src="itli-comi.jpg" >
+        </div>
+ 
+        <div class="small_card">
+         <i class="fa-solid fa-heart"></i>  
+        </div>
+          <div class="menu_info">
+           <h2>Indian Food</h2>
+           <p>
+             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum ipsam enim soluta odio error? Sit magni voluptatibus quisquam illum vero.
+           
+           </p>
+           <h3>$20.00</h3>
+           <div class="menu_icon">
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star-half-stoke"></i>
+           </div>
+           <a href="#" class="menu_btn">Order Now</a>
+          </div>
+       </div>
+       <div class="menu_card">
+        <div class="menu_image">
+          <img src="itli-comi.jpg" >
+        </div>
+ 
+        <div class="small_card">
+         <i class="fa-solid fa-heart"></i>  
+        </div>
+          <div class="menu_info">
+           <h2>Indian Food</h2>
+           <p>
+             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum ipsam enim soluta odio error? Sit magni voluptatibus quisquam illum vero.
+           
+           </p>
+           <h3>$20.00</h3>
+           <div class="menu_icon">
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star-half-stoke"></i>
+           </div>
+           <a href="#" class="menu_btn">Order Now</a>
+          </div>
+       </div>
+       <div class="menu_card">
+        <div class="menu_image">
+          <img src="itli-comi.jpg" >
+        </div>
+ 
+        <div class="small_card">
+         <i class="fa-solid fa-heart"></i>  
+        </div>
+          <div class="menu_info">
+           <h2>Indian Food</h2>
+           <p>
+             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum ipsam enim soluta odio error? Sit magni voluptatibus quisquam illum vero.
+           
+           </p>
+           <h3>$20.00</h3>
+           <div class="menu_icon">
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star-half-stoke"></i>
+           </div>
+           <a href="#" class="menu_btn">Order Now</a>
+          </div>
+       </div>
+       <div class="menu_card">
+        <div class="menu_image">
+          <img src="itli-comi.jpg" >
+        </div>
+ 
+        <div class="small_card">
+         <i class="fa-solid fa-heart"></i>  
+        </div>
+          <div class="menu_info">
+           <h2>Indian Food</h2>
+           <p>
+             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum ipsam enim soluta odio error? Sit magni voluptatibus quisquam illum vero.
+           
+           </p>
+           <h3>$20.00</h3>
+           <div class="menu_icon">
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star-half-stoke"></i>
+           </div>
+           <a href="#" class="menu_btn">Order Now</a>
+          </div>
+       </div>
+    </div>
+</div>
+      
+     
+      
+  
+  
+      
+  
+ <!-- chats -->
+ <div class="chats" id="chats">
+    <h1>Our<span>Chats</span></h1>
+    <div class="chats_image_box">
+    <div class="chats_image">
+        <img src="gobi.jpg">
+          <h3>Gobi Manchurian</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem aspernatur incidunt eius tenetur reiciendis minima!</p>
+          <a href="#" class="chats_btn">Order Now</a>
+        </div>
+        <div class="chats_image">
+          <img src="babay corn.jpg">
+            <h3>Babycorn Manchurian</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem aspernatur incidunt eius tenetur reiciendis minima!</p>
+            <a href="#" class="chats_btn">Order Now</a>
+          </div>
+          <div class="chats_image">
+            <img src="bajji.jpg">
+              <h3> Bajji</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem aspernatur incidunt eius tenetur reiciendis minima!</p>
+              <a href="#" class="chats_btn">Order Now</a>
+            </div>
+            <div class="chats_image">
+              <img src="images.jpg">
+                <h3>Bel puri</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem aspernatur incidunt eius tenetur reiciendis minima!</p>
+                <a href="#" class="chats_btn">Order Now</a>
+              </div>
+              
+                <div class="chats_image">
+                  <img src="nipat.jpg">
+                    <h3>Nipat Masala</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem aspernatur incidunt eius tenetur reiciendis minima!</p>
+                    <a href="#" class="chats_btn">Order Now</a>
+                  </div>
+                  <div class="chats_image">
+                    <img src="panipuri.jpg">
+                      <h3>Golgappa</h3>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem aspernatur incidunt eius tenetur reiciendis minima!</p>
+                      <a href="#" class="chats_btn">Order Now</a>
+                    </div>
+ </div>
+
+ </div>
+ 
+ <!-- review -->
+   <div class="review" id="review">
+    <h1>Customer<span>Review</span></h1>
+    <div class="review_box">
+      <div class="review_card">
+
+        <div class="review_profile">
+          <img src="girl.jpg">
+        </div>
+        <div class="review_text">
+          <h2 class="name"> John Deo</h2>
+             <div class="review_icon">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>               
+             </div>
+
+             <div class="review_social"></div>
+             <i class="fa-brands fa-facebook-f"></i>
+             <i class="fa-brands fa-instagram"></i>
+             <i class="fa-brands fa-twitter"></i>
+             <i class="fa-brands fa-linkedin-in"></i>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, atque totam! Saepe accusantium maiores odio.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias numquam rerum cupiditate veritatis sed atque eius voluptate nostrum officiis distinctio.</p>
+      </div>
+      <div class="review_card">
+
+        <div class="review_profile">
+          <img src="girl.2.jpg">
+        </div>
+        <div class="review_text">
+          <h2 class="name"> John Deo</h2>
+             <div class="review_icon">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>               
+             </div>
+
+             <div class="review_social"></div>
+             <i class="fa-brands fa-facebook-f"></i>
+             <i class="fa-brands fa-instagram"></i>
+             <i class="fa-brands fa-twitter"></i>
+             <i class="fa-brands fa-linkedin-in"></i>
+        </div>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.laudantium delectus magnam dignissimos.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias numquam rerum cupiditate veritatis sed atque eius voluptate nostrum officiis distinctio.</p>
+      </div> <div class="review_card">
+
+        <div class="review_profile">
+          <img src="girl1.jpg">
+        </div>
+        <div class="review_text">
+          <h2 class="name"> John Deo</h2>
+             <div class="review_icon">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>               
+             </div>
+
+             <div class="review_social"></div>
+             <i class="fa-brands fa-facebook-f"></i>
+             <i class="fa-brands fa-instagram"></i>
+             <i class="fa-brands fa-twitter"></i>
+             <i class="fa-brands fa-linkedin-in"></i>
+        </div>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam reiciendis at, ab illo sit id.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias numquam rerum cupiditate veritatis sed atque eius voluptate nostrum officiis distinctio.</p>
+      </div> <div class="review_card">
+
+        <div class="review_profile">
+          <img src="boy 2.jpg">
+        </div>
+        <div class="review_text">
+          <h2 class="name"> John Deo</h2>
+             <div class="review_icon">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>               
+             </div>
+
+             <div class="review_social"></div>
+             <i class="fa-brands fa-facebook-f"></i>
+             <i class="fa-brands fa-instagram"></i>
+             <i class="fa-brands fa-twitter"></i>
+             <i class="fa-brands fa-linkedin-in"></i>
+        </div>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias numquam rerum cupiditate veritatis sed atque eius voluptate nostrum officiis distinctio. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam illum odio quibusdam </p>
+      </div>
+    </div>
+   </div>
+
+   <!-- order -->
+   <div class="order" id="order">
+    <h1><span>Order</span>Now</h1>
+
+    <div class="order_main">
+         <div class="order_image">
+             <img src="order.jpg" alt="">
+         </div>
+         <form action="#">
+         <div class="input">
+          <p>Name</p>
+          <input type="name" placeholder="you name">
+         </div>
+         <div class="input">
+          <p>Email</p>
+          <input type="email" placeholder="you email">
+         </div>
+         <div class="input">
+          <p>Number</p>
+          <input placeholder="you number">
+         </div>
+         <div class="input">
+          <p>How much</p>
+          <input type="text" placeholder="you name">
+         </div>
+         <div class="input">
+          <p>Your Order</p>
+          <input  placeholder="food name">
+         </div>
+          <div class="input">
+          <p>Address</p>
+          <input type="text" placeholder="you address">
+         </div>
+         <a href="#" class="order_btn">Order</a>
+        </form>
+         </div>
+    </div>
+   </div>
+   <!-- team -->
+     <div class="team">
+      <h1>Our<span>Team</span></h1>
+         <div class="team_box">
+           <div class="profile">
+              <img src="girl.2.jpg">
+                <div class="info">
+                  <h2 class="name">Chef</h2>
+                  <p class="bio">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae culpa molestias voluptatibus beatae, vel quia.</p>
+                  <div class="team_icon">
+                      <i class="fa-brands fa-facebook-f"></i>
+                      <i class="fa-brands fa-twitter"></i>
+                      <i class="fa-brands fa-instagram"></i>
+                  </div>
+                </div>
+
+           </div>
+           <div class="profile">
+            <img src="girl.jpg">
+              <div class="info">
+                <h2 class="name">Chef</h2>
+                <p class="bio">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae culpa molestias voluptatibus beatae, vel quia.</p>
+                <div class="team_icon">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+              </div>
+
+         </div>
+         <div class="profile">
+          <img src="boy 2.jpg">
+            <div class="info">
+              <h2 class="name">Chef</h2>
+              <p class="bio">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae culpa molestias voluptatibus beatae, vel quia.</p>
+              <div class="team_icon">
+                  <i class="fa-brands fa-facebook-f"></i>
+                  <i class="fa-brands fa-twitter"></i>
+                  <i class="fa-brands fa-instagram"></i>
+              </div>
+            </div>
+
+       </div>
+
+         </div>
+     </div>
+     <!-- footer -->
+     <footer>
+        <div class="footer_main">
+          <div class="footer_tag">
+            <h2> Location</h2>
+             <p>Sri Lanka</p>
+             <p> USA</p>
+             <p>India</p>
+             <p>Japan</p>
+             <p>Italy</p>
+            
+          </div>
+         
+            <div class="footer_tag">
+              <h2> Quick Link</h2>
+               <p>Home</p>
+               <p> About</p>
+               <p>Menu</p>
+               <p>Gallary</p>
+               <p>Order</p>
+              
+            </div>
+            
+              <div class="footer_tag">
+                <h2>Contact</h2>
+                 <p>Sri Lanka</p>
+                 <p> +94 12 3456 789</p>
+                 <p>+94 25 5568456</p>
+                 <p>vpv123@gmail.com</p>
+                 <p>foodhop147@gmail.com</p>
+                
+              </div>
+             
+                <div class="footer_tag">
+                  <h2> Our Servise</h2>
+                   <p>Fast Delivery</p>
+                   <p> Easy Payments</p>
+                   <p>24 x 7 Sevices</p>
+                </div>
+                <div class="footer_tag">
+                  <h2> Follows</h2>
+                  <i class="fa-brands fa-facebook-f"></i>
+                  <i class="fa-brands fa-twitter"></i>
+                  <i class="fa-brands fa-instagram"></i>
+                  <i class="fa-brands fa-linkedin-in"></i>
+                  
+                </div>
+        </div>
+        <p class="p">Design by<span><i class="fa-solid fa-face-grin"></i></span></p>
+     </footer>
+</body>
+</html>
